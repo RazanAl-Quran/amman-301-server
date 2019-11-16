@@ -24,5 +24,10 @@ server.get('/data', (request, response) => {
   response.json(family);
 });
 
+let str = "hello";
+const appendTheEnd = (str) => {
+    return `${str} The end.`
+};
+appendTheEnd(str);
 server.listen( PORT, () => console.log('Listening on port', PORT));
 
