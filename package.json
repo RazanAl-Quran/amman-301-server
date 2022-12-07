@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/RazanAl-Quran/amman-301-server#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   }
 }
